@@ -18,6 +18,6 @@ def count_substrings_with_k_distinct(s, k):
         
         return count
     return count_at_most_k_distinct(s, k) - count_at_most_k_distinct(s, k-1)
-s = "pqpqs"
-k = 2
+s = "aabacbebebe"
+k = 3
 print(count_substrings_with_k_distinct(s, k)) 
